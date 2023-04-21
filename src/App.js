@@ -2,7 +2,8 @@ import React, { Fragment, Component } from "react";
 // ㄴ리액트 컴포넌트는 요소 여러 개를 하나로 감싸주어야 한다. 이를 div가 아닌 <></>로 감쌀 수 있게 해주는 기능!
 
 import "./App.css";
-import MyComponent from "./MyComponent";
+// import MyComponent from "./MyComponent";
+import Counter from "./Counter";
 
 /* p87 클래스형 컴포넌트
   class App extends Component {
@@ -72,7 +73,10 @@ import MyComponent from "./MyComponent";
 
 const App = () => {
   return (
-    <MyComponent name="React" favoriteNumber={1}>리액트</MyComponent>
+    <>
+      {/* <MyComponent name="React" favoriteNumber={1}>리액트</MyComponent> */}
+      <Counter></Counter>
+    </>
   );
 };
 
