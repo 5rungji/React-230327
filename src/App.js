@@ -5,7 +5,7 @@ import "./App.css";
 // import MyComponent from "./component/MyComponent";
 // import Counter from "./component/Counter";
 // import Say from "./component/Say";
-import EventPractice from "./component/EventPractice";
+import EventPractice2 from "./component/EventPractice2";
 
 /* p87 클래스형 컴포넌트
   class App extends Component {
@@ -78,7 +78,7 @@ const App = () => {
     <>
       {/* <MyComponent name="React" favoriteNumber={1}>리액트</MyComponent> */}
       {/* <Counter></Counter> */}
-      <EventPractice/>
+      <EventPractice2/>
     </>
   );
 };
